@@ -1,5 +1,5 @@
-.row {
-    margin-top: 10%;
+#marg {
+    margin-top: 100px;
 }
 
 #pic {
@@ -11,6 +11,21 @@
    }
 
    #coverimg{
+    z-index: -9;
+    background: rgba(59, 56, 56, 0.349); 
+    height: 100%;
+    width: 100%;
+   }
+   
+   #picReg {
+    background-image: url("images/cinema.jpg");
+    z-index: -10;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   }
+
+   #coverimgReg{
     z-index: -9;
     background: rgba(59, 56, 56, 0.349); 
     height: 100%;
@@ -34,4 +49,45 @@
 
 #buttonSignUp{
   background-color: #FF7591;
+}
+
+#registerBtn {
+  background-color: #FF7591;
+  color: black;
+  margin: 5px auto;
+  width: 200px;
+}
+
+#loginBtn {
+  color: black;
+  margin: 10px auto;
+  width: 200px;
+}
+
+#cancelbtn a{
+ color: white;
+ text-decoration: none;
+}
+
+#signin {
+  background: #FF7591;
+  opacity: 0.8;
+}
+
+.regform{
+  margin-top: 100px;
+}
+
+#regsignin {
+background: #FF7591;
+  opacity: 0.8;
+}
+
+#new {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#table {
+  margin-bottom: 20px;
 }

@@ -13,16 +13,16 @@
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="picReg">
 
-<div class="container text-center">
+<div class="container text-center regform" id="coverimgReg">
 <div class="row">
 <div class="col-sm"></div>
 
     <div class="col-sm" >
-            <form class="form-signin"  method="post" action="registration.php">
+            <form class="form-signin"  method="post" action="registrationProcess.php">
                 <img class="mb-4" src="images\movie.svg" alt="" width="100px" height="100px">
-                <h1 class="h3 mb-3 font-weight-normal">User Registration</h1>
+                <h1 class="h3 mb-3 font-weight-normal" id="regsignin">User Registration</h1>
                 <label for="inputEmail" class="sr-only">First Name</label>
                 <input type="text" name="firstname" class="form-control" placeholder="First Name" required autofocus>
 
@@ -32,16 +32,13 @@
 
                 <input type="password" name="password" class="form-control" placeholder="Password" required autofocus>
 
-                <input class="btn btn-lg btn-warning btn-block" type="submit" value="SignUp">
+                <input class="btn btn-lg btn-success btn-block" type="submit" value="Register">
             </form>
     </div>
 
 <div class="col-sm"></div>
 </div>
 </div>
-
-
-
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>

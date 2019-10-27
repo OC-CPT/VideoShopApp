@@ -29,7 +29,7 @@ CREATE TABLE `user` (
   `USERNAME` varchar(45) DEFAULT NULL,
   `PASSWORD` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`USER_KEY`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'vee','dee','video','video$$'),(2,'Owen','Owen','occtttt','daeccf0ad3c1fc8c8015205c332f5b42'),(3,'Owen','Owen','occtttt','daeccf0ad3c1fc8c8015205c332f5b42'),(4,'OC','OC','oc','daeccf0ad3c1fc8c8015205c332f5b42'),(5,'sd','asd','qw','006d2143154327a64d86a264aea225f3'),(6,'wrgws','erqer','zz','25ed1bcb423b0b7200f485fc5ff71c8e');
+INSERT INTO `user` VALUES (14,'Admin','Admin','Admin','e3afed0047b08059d0fada10f400c1e5');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -54,7 +54,7 @@ CREATE TABLE `video` (
   `title` varchar(45) DEFAULT NULL,
   `genre` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`video_key`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -63,7 +63,7 @@ CREATE TABLE `video` (
 
 LOCK TABLES `video` WRITE;
 /*!40000 ALTER TABLE `video` DISABLE KEYS */;
-INSERT INTO `video` VALUES (1,'Cars','animation');
+INSERT INTO `video` VALUES (17,'The Matrix','Action'),(18,'Think Like A Man','Comedy'),(19,'IT','Horror'),(21,'Cars','Animation');
 /*!40000 ALTER TABLE `video` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -76,4 +76,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-10-24  7:10:48
+-- Dump completed on 2019-10-27  9:59:56

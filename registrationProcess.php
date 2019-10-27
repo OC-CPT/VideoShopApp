@@ -12,7 +12,7 @@ $pwd = $_POST['password'];
 $password = MD5($pwd);
 
 $sql = "INSERT INTO user (FIRSTNAME, SURNAME,USERNAME,PASSWORD) VALUES ('$firstname', '$surname', '$username', '$password')";
-$result = mysqli_query($conn, $sql);
+$result = mysqli_query($mysqli, $sql);
 
 if($result)
 {
